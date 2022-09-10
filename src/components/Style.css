@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgba(236, 236, 236, 0.856);
+    display: flexbox;
+}
+.imgs{
+    margin-top: 50px;
+    width: 85vh;
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    margin: 100px;
+    margin-top: 10px;
+}
+.pos h1{
+    margin-top: 800px;
+    font-size: 3rem;
+    margin: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.pos{
+    background-color:  rgba(236, 236, 236, 0.562);
+    display: flex;
+    text-align: right;
+    display: flexbox;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.644);
+    display: flexbox;
+    font-size: 100%;
+
+}
+.nav{
+    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color:  rgba(236, 236, 236, 0.562);
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    display: flexbox;
+    gap: 3rem;
+}
+
+.img{
+  height: 100px;
+   display: flexbox;
+}
+input{
+    display: flexbox;
+    border-radius: 200px;
+    width: 300px;
+    height: 30px;
+}
+/*cards*/
+
+.container{
+    float: left;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container:hover{
+    top : -30px;
+}
+
+.card{
+    width: 240px;
+    padding: 15px;
+    margin: 0 15px 5px 15px;
+    background-color:  rgba(25, 51, 178, 0.822);
+    box-shadow: 10px 10px 10px rgb(8, 9, 11);
+    text-align: center;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: -10px;
+    display: flexbox;
+}
+
+.card h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    line-height: 0.1em;
+    display: flexbox;
+}
+
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flexbox;
+}
+
+.card button{
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: flexbox;
+}
+ 
+.card button:hover{
+    background-color: rgb(167, 26, 26);
+    
+}
+
+main.cards{
+    display: flex;
+
+}
+.footer{
+    list-style: none;
+    text-align: center;
+    background-color: darkgrey;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flexbox;
+}
+.linha{
+    text-align: center;
+    text-decoration: double;
+    margin-top: 100px;
+    display: flexbox;
+}
+.footer img{
+    align-items: flex-start;
+    display: flexbox;
+}
+.produto{
+    text-align: center;
+    display: flexbox;
+}
+
